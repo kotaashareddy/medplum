@@ -18,8 +18,8 @@
   "redis": {
     "host": "redis.railway.internal",
     "port": 6379,
-    "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF",
-     "tls": {}
+    "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF"
+     
   }
 }
 
