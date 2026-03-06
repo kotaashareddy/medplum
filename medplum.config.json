@@ -6,11 +6,12 @@
   "storageBaseUrl": "https://medplum-server-production-ae86.up.railway.app/binary/",
   "supportEmail": "admin@example.com",
   "database": {
-    "host": "maglev.proxy.rlwy.net",
-    "port": 33749,
+    "host": "postgres.railway.internal",
+    "port": 5432,
     "dbname": "railway",
     "username": "postgres",
-    "password": "vqsrWCTBnrijUPmAiwGvfxMVuyPBgAUG"
+    "password": "vqsrWCTBnrijUPmAiwGvfxMVuyPBgAUG",
+    "ssl": false
   },
   "redis": {
     "host": "redis.railway.internal",
