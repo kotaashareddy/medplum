@@ -1,7 +1,7 @@
 {
   "port": 8103,
-  "baseUrl": "https://medplum-server-production-ae86.up.railway.app/",
-  "appBaseUrl": "https://medplum-server-production-ae86.up.railway.app/",
+  "baseUrl": "https://medplum-production-06c3.up.railway.app/",
+  "appBaseUrl": "https://medplum-production-06c3.up.railway.app/",
   "binaryStorage": "file:./binary/",
   "storageBaseUrl": "https://medplum-server-production-ae86.up.railway.app/binary/",
   "supportEmail": "admin@example.com",
