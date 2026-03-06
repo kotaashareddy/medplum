@@ -11,12 +11,15 @@
     "dbname": "railway",
     "username": "postgres",
     "password": "vqsrWCTBnrijUPmAiwGvfxMVuyPBgAUG",
-    "ssl": false
+    "ssl": {
+      "rejectUnauthorized": false
+    }
   },
   "redis": {
     "host": "redis.railway.internal",
     "port": 6379,
-    "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF"
+    "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF",
+     "tls": {}
   }
 }
 
