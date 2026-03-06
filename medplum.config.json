@@ -3,8 +3,12 @@
   "baseUrl": "https://medplum-production-06c3.up.railway.app/",
   "appBaseUrl": "https://medplum-production-06c3.up.railway.app/",
   "binaryStorage": "file:./binary/",
-  "storageBaseUrl": "https://medplum-server-production-ae86.up.railway.app/binary/",
+  "storageBaseUrl": "https://medplum-production-06c3.up.railway.app/binary/",
   "supportEmail": "admin@example.com",
+  "vmContextBotsEnabled": true,
+  "defaultBotRuntimeVersion": "vmcontext",
+  "allowedOrigins": "*",
+  "introspectionEnabled": true,
   "database": {
     "host": "postgres.railway.internal",
     "port": 5432,
@@ -19,7 +23,6 @@
     "host": "redis.railway.internal",
     "port": 6379,
     "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF"
-     
-  }
+  },
+  "shutdownTimeoutMilliseconds": 30000
 }
-
