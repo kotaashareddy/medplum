@@ -1,0 +1,21 @@
+{
+  "port": 8103,
+  "baseUrl": "https://medplum-server-production-ae86.up.railway.app/",
+  "appBaseUrl": "https://medplum-server-production-ae86.up.railway.app/",
+  "binaryStorage": "file:./binary/",
+  "storageBaseUrl": "https://medplum-server-production-ae86.up.railway.app/binary/",
+  "supportEmail": "admin@example.com",
+  "database": {
+    "host": "postgres.railway.internal",
+    "port": 5432,
+    "dbname": "railway",
+    "username": "postgres",
+    "password": "CvSBtACsmTHEQOcdiqBOkLVXVTCCfCs"
+  },
+  "redis": {
+    "host": "redis.railway.internal",
+    "port": 6379,
+    "password": "RKazrNfOCfupllfyoaHwDDNHwZsaZrNa"
+  }
+}
+
