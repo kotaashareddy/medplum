@@ -10,8 +10,8 @@
   "allowedOrigins": "*",
   "introspectionEnabled": true,
   "database": {
-    "host": "postgres.railway.internal",
-    "port": 5432,
+    "host": "maglev.proxy.rlwy.net",
+    "port": 33749,
     "dbname": "railway",
     "username": "postgres",
     "password": "vqsrWCTBnrijUPmAiwGvfxMVuyPBgAUG",
@@ -20,8 +20,8 @@
     }
   },
   "redis": {
-    "host": "redis.railway.internal",
-    "port": 6379,
+    "host": "maglev.proxy.rlwy.net",
+    "port": 57062,
     "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF"
   },
   "shutdownTimeoutMilliseconds": 30000
