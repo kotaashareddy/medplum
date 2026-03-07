@@ -1,4 +1,3 @@
 FROM medplum/medplum-server:latest
-RUN rm -f /usr/src/medplum/medplum.config.json
-COPY medplum.config.json /usr/src/medplum/medplum.config.json
-CMD ["file:/usr/src/medplum/medplum.config.json"]
+COPY medplum.config.json /tmp/medplum.config.json
+CMD ["file:/tmp/medplum.config.json"]
