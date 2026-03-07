@@ -16,13 +16,17 @@
     "username": "postgres",
     "password": "vqsrWCTBnrijUPmAiwGvfxMVuyPBgAUG",
     "ssl": {
+      "require": true,
       "rejectUnauthorized": false
     }
   },
   "redis": {
     "host": "maglev.proxy.rlwy.net",
     "port": 57062,
-    "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF"
+    "password": "oJLoyhuorhFgIwjybgQTiidkSIhKWiRF",
+    "tls": {
+      "rejectUnauthorized": false
+    }
   },
   "shutdownTimeoutMilliseconds": 30000
 }
