@@ -1,3 +1,0 @@
-FROM medplum/medplum-server:latest
-COPY medplum.config.json /tmp/medplum.config.json
-CMD ["file:/tmp/medplum.config.json"]
